@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+}
+
+.navs a {
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(238, 229, 229);
+  font-size: 17px;
+}
+
+.bars  {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navs{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .bars-icon {
+        color: rgb(238, 229, 229);
+        font-size: 20px;
+    }
+}
